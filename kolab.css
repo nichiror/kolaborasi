@@ -89,9 +89,9 @@ nav a:hover {
     
   }
   .container-d{
-    display: flex;  /* Makes image and text appear in one row */
-    align-items: center; /* Centers items vertically */
-    gap: 15px; /* Space between image and text */
+    display: flex;  
+    align-items: center; 
+    gap: 15px; 
   }
   
   .container img {
@@ -103,7 +103,7 @@ nav a:hover {
     height: 2px;  /*  thick */
     background-color: black;  
     width: 100%;  
-  /* Space */
+
   }
   .main {
     margin-left: 200px; 
@@ -184,8 +184,8 @@ nav a:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
   display: flex; 
-  flex-wrap: wrap; /* Allow wrapping if screen is small */
-  justify-content: center; /* Center the polaroids */
+  flex-wrap: wrap; /* if screen is small */
+  justify-content: center; 
   gap: 20px; /* Space between polaroids */
 }
 .content-box {
@@ -200,9 +200,9 @@ nav a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     display: flex; 
-    flex-wrap:wrap; /* Allow wrapping if screen is small */
-    justify-content: center; /* Center the polaroids */
-    gap: 20px; /* Space between polaroids */
+    flex-wrap:wrap; 
+    justify-content: center;
+    gap: 20px;
     flex-direction: row;
   }
 
@@ -227,9 +227,9 @@ nav a:hover {
   padding-bottom: 10px;
 }
 nav img {
-  width: 220px; /* Set a good size for logo */
-  margin-bottom: 20px; /* Space between logo and links */
-  border-radius: 10px; /* Optional: make it smooth */
+  width: 220px; 
+  margin-bottom: 20px; 
+  border-radius: 10px; 
 }
 
 
@@ -266,7 +266,7 @@ nav img {
     animation: hoverEffect 0.6s ease-in-out;
 }
 
-/* Card Image */
+
 .card-img {
     width: 100%;
     height: 100%;
@@ -278,11 +278,11 @@ nav img {
 .card-img img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures images scale nicely */
+    object-fit: cover; /*  images scale nicely */
     border-radius: 25px;
 }
 
-/* Hidden text container (initially invisible) */
+
 .card-content {
     position: absolute;
     width: 100%;
@@ -297,12 +297,12 @@ nav img {
     transition: 0.5s ease-in-out;
 }
 
-/* Show content on hover */
+/* Show content  */
 .card:hover .card-content {
     opacity: 1;
 }
 
-/* Text Styling */
+
 .name {
     color: white;
     font-size: 22px;
@@ -336,7 +336,7 @@ a{
   position: relative;
   top: -100px;
   margin-left: 300px;
-  z-index: 2; /* bring the Start button above .box */
+  z-index: 2; 
   display: inline-block;
   padding: 15px 30px;
   font-size: 20px;
@@ -539,7 +539,6 @@ input[type=submit]:hover {
   clear: both;
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column, input[type=submit] {
     width: 100%;
